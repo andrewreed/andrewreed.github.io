@@ -1,0 +1,8 @@
+---
+layout: default
+title: About
+description: About me and my website.
+---
+<p><h1>About Me</h1></p>
+<p>I am a Major in the U.S. Army with a B.S. in Computer Science from the <a href="http://www.westpoint.edu">United States Military Academy</a>. I am currently attending the <a href="http://www.cs.unc.edu/">University of North Carolina at Chapel Hill</a> to obtain a Master's in Computer Science. Afterwards, I will return to West Point as an instructor in the <a href="http://www.westpoint.edu/eecs/SitePages/Home.aspx">Electrical Engineering and Computer Science Department</a>.</p>
+<p>My research interests center on traffic analysis, specifically the effect on network performance as users eschew traditional media sources in favor of Internet-based streaming media. I am particularly interested in using "Big Data" tools (e.g. <a href="http://hadoop.apache.org">Hadoop</a>) to enable large scale analysis of network traces. I am also interested in the effects on user privacy as media consumption shifts to the Internet.</p>

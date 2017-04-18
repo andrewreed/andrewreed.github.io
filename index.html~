@@ -1,0 +1,13 @@
+---
+layout: default
+description: Andrew C. Reed's academic website.
+---
+<div id="home">
+<h1>Welcome</h1>
+<p>This is the academic website of <a href="http://www.cs.unc.edu/~reed/about.html">Andrew C. Reed</a>.</p>
+<h1>Contact Me</h1>
+<p>Email: {my last name}@cs.unc.edu</p>
+<h1>News</h1>
+<p><b>24 Apr 2014:</b> MS Thesis has been posted and projects have been updated.</p>
+<p><b>02 Oct 2013:</b> Website is up!</p>
+</div>
