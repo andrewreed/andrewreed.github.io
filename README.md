@@ -1,4 +1,4 @@
-andrewreed.gtihub.io
+andrewreed.github.io
 ====================
 
 Jekyll source for my homepage.
