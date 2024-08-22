@@ -1,12 +1,115 @@
----
-layout: default
-description: Andrew C. Reed's academic website.
----
-<div id="home">
-<h1>Welcome</h1>
-<p>This is the academic website of <a href="/about.html">Andrew C. Reed</a>.</p>
-<h1>Contact Me</h1>
-<p>Email: my last name at cs dot unc dot edu</p>
-<h1>News</h1>
-<p><b>23 Nov 2019:</b> Updated contact info and status.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .profile {
+            display: flex;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .contact {
+            margin-top: 10px;
+        }
+        .contact a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .bio, .works {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .works h2 {
+            margin-bottom: 10px;
+        }
+        .work-item {
+            margin-bottom: 15px;
+        }
+        .work-item a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .work-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>LTC Andrew C. Reed</h1>
+    </header>
+
+    <div class="container">
+
+        <section class="profile">
+            <img src="images/photo.jpeg" alt="Profile Photo">
+            <div class="contact">
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                <a href="https://github.com/yourusername">GitHub: yourusername</a>
+            </div>
+        </section>
+
+        <section class="bio">
+            <h2>Biography</h2>
+            <p>
+                [Your biographical information goes here. Include details about your education, research interests, current position, and any other relevant information.]
+            </p>
+        </section>
+
+        <section class="works">
+            <h2>Published Works</h2>
+            <div class="work-item">
+                <strong>Title of Work 1</strong>
+                <p>
+                    <a href="link-to-pdf">PDF</a>
+                    <a href="link-to-slides">Slides</a>
+                    <a href="link-to-poster">Poster</a>
+                </p>
+            </div>
+            <div class="work-item">
+                <strong>Title of Work 2</strong>
+                <p>
+                    <a href="link-to-pdf">PDF</a>
+                    <a href="link-to-slides">Slides</a>
+                    <a href="link-to-poster">Poster</a>
+                </p>
+            </div>
+            <!-- Add more work items as needed -->
+        </section>
+
+    </div>
+
+</body>
+</html>
